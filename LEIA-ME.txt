@@ -1,0 +1,14 @@
+AÇÃO ENTRE AMIGOS — CONFIGURAÇÃO GRATUITA
+
+1. Abra numeros.csv no Google Sheets (Arquivo > Importar > Upload).
+2. Crie uma aba PUBLICA com APENAS duas colunas: numero,status. NÃO inclua nomes, telefones, comprovantes ou dados pessoais.
+3. Publique SOMENTE a aba PUBLICA em Arquivo > Compartilhar > Publicar na Web, selecionando a aba e formato CSV. Copie a URL pública CSV.
+4. Abra config.js num editor de texto e coloque a URL entre as aspas de planilhaCsvUrl.
+5. Crie repositório GitHub público (por exemplo acao-entre-amigos) e envie index.html, foto-original.jpeg e config.js. Opcionalmente envie numeros.csv como fallback de testes.
+6. GitHub: Settings > Pages > Deploy from a branch > main / (root) > Save. Aguarde aparecer o endereço público.
+7. Teste a cartela pelo endereço público, marque um número como Vendido na aba PUBLICA e teste novamente clicando em Atualizar. Publicações CSV podem levar alguns minutos para propagar.
+8. Fluxo: participante seleciona números, solicita no WhatsApp, você confere a disponibilidade na planilha, combina Pix, confirma recebimento no app do banco e altera status para Vendido. Para pedidos em andamento pode usar Reservado.
+
+ATENÇÃO: a planilha PUBLICA será visível a qualquer pessoa com o link. Não compartilhe planilha privada de compradores. Google Sheets publicado pode ter cache e não bloqueia pedidos simultâneos; não é reserva automática. Não publique vendas antes de verificar autorização e regras legais aplicáveis.
+
+Dados iniciais: 375 números; primeiros oito vendidos; R$20 cada; chave Pix 54996847382.
